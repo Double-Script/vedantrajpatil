@@ -22,7 +22,7 @@ export const Projects =()=> {
             </div>
 
                 <div>
-                    <a href="#" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View Project -</a>
+                    <a href="https://github.com/Double-Script/first-project" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View Code</a>
                 </div>
 
         </div> 
@@ -43,7 +43,7 @@ export const Projects =()=> {
             </div>
 
                 <div>
-                    <a href="#" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View Project -</a>
+                    <a href="#" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View code</a>
                 </div>
 
         </div>
@@ -65,7 +65,7 @@ export const Projects =()=> {
             </div>
 
                 <div>
-                    <a href="#" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View Project -</a>
+                    <a href="https://github.com/Double-Script/SecurePixel-main" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View code</a>
                 </div>
 
         </div>
@@ -88,7 +88,7 @@ export const Projects =()=> {
             </div>
 
                 <div>
-                    <a href="#" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> View Project -</a>
+                    <a href="https://www.transfastcorporation.com/" className='text-blue-400 hover:text-blue-300 transition-colors my-4  '> Visit site</a>
                 </div>
 
         </div>
