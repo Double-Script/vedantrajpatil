@@ -3,8 +3,8 @@ import { RevealOnScroll } from './RevealOnScroll'
 
 export const About =()=> {
 
-      const frontendSkills =["HTML", "CSS", "JavaScript", "React"];
-      const backendSkills =["Java", "Spring", "Springboot", "Hibernate","JDBC", "SQL", "NoSql"];
+      const technicalSkills =[" Java ", " HTML ", " CSS ", " JavaScript ", " React ", " OOPs ", " Spring ", " Springboot ", " Hibernate "," JDBC ", " SQL ", " NoSql "];
+      const devopsTools =[" Git ", " Github ", " AWS ", " Docker "," Jenkins ", " Kubernetes ", " Nginx ", " BashScript ", " Linux ", " Ansible ", " Terraform "];
 
   return (
     <section id='About' className='min-h-screen flex items-center justify-center py-20'>
@@ -19,9 +19,9 @@ export const About =()=> {
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <div className='rounded-xl p-6 hover:-translate-y-1 transition-all'>
-                    <h3 className=''>Frontend</h3>
+                    <h3 className=''>Technical Skills</h3>
                     <div className='flex flex-wrap gap-2'>
-                        {frontendSkills.map((tech, key)=> (
+                        {technicalSkills.map((tech, key)=> (
                             <span key={key} className='bg-blue-500/10 text-blue-500 py-1 px-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition'> 
                             {tech}
                             </span>
@@ -30,9 +30,9 @@ export const About =()=> {
                 </div>
 
                 <div className='rounded-xl p-6 hover:-translate-y-1 transition-all'>
-                    <h3 className=''>Backend</h3>
+                    <h3 className=''>Devops Tools</h3>
                     <div className='flex flex-wrap gap-2'>
-                        {backendSkills.map((tech, key)=> (
+                        {devopsTools.map((tech, key)=> (
                             <span key={key} className='bg-blue-500/10 text-blue-500 py-1 px-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition'> 
                             {tech}
                             </span>
@@ -51,9 +51,29 @@ export const About =()=> {
                                 <strong> B.Tech in Computer Science</strong> - Sanjay Ghodawat University (2021-2025)
                             </li>
                             <li>
-                                Relevant Coursework: Data Structures, Web Development, Cloud Computing...
+                                CGPA : 7.34
+                                
                             </li>
                             </ul>
+                            _____________
+                            <ul className='list-disc list-inside text-gray-300 space-y-2'>
+                            <li>
+                                <strong> HSC 12th </strong> - S D HighSchool & Jr. Collage Mutnal (2021)
+                            </li>
+                            <li>
+                                Percentage : 84.83
+                            </li>
+                            </ul>
+                            _____________
+                            <ul className='list-disc list-inside text-gray-300 space-y-2'>
+                            <li>
+                                <strong> SSC 10th </strong> - V D Shinde HighSchool Gadhinglaj (2019)
+                            </li>
+                            <li>
+                                Percentage : 74.20
+                            </li>
+                            </ul>
+                            
                         </div>
 
                         <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all'>
